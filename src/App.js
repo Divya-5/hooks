@@ -12,7 +12,8 @@ import './App.css';
 //import ClassMouse from './components/ClassMouse';
 //import HookMose from './components/HookMose';
 //import MouseContainer from './components/MouseContainer';
-import DataFetching from './components/DataFetching';
+//import DataFetching from './components/DataFetching';
+import DataFetching2 from './components/DataFetching2';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
      {/* <ClassMouse /> */}
      {/* <HookMose /> */}
      {/* <MouseContainer /> */}
-     <DataFetching />
+     {/* <DataFetching /> */}
+     <DataFetching2 />
     </div>
   );
 }
