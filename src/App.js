@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
 //import ClassCounter from './components/ClassCounter';
 //import HookCounter from './components/HookCounter';
@@ -13,8 +13,10 @@ import './App.css';
 //import HookMose from './components/HookMose';
 //import MouseContainer from './components/MouseContainer';
 //import DataFetching from './components/DataFetching';
-import DataFetching2 from './components/DataFetching2';
-
+//import DataFetching2 from './components/DataFetching2';
+import GrandParent from './components/GrandParent';
+export const UserContext=React.createContext()
+export const ChannelContext=React.createContext()
 function App() {
   return (
     <div className="App">
@@ -31,7 +33,12 @@ function App() {
      {/* <HookMose /> */}
      {/* <MouseContainer /> */}
      {/* <DataFetching /> */}
-     <DataFetching2 />
+     {/* <DataFetching2 /> */}
+     <UserContext.Provider value='Divya'>
+     <ChannelContext.Provider value='Hello'>
+     <GrandParent />
+     </ChannelContext.Provider>
+     </UserContext.Provider>
     </div>
   );
 }
