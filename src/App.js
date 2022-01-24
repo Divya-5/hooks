@@ -8,7 +8,11 @@ import './App.css';
 //import ClassCounter1 from './components/ClassCounter1';
 //import HookCounter1 from './components/HookCounter1';
 //import ClassCounter2 from './components/ClassCounter2';
-import HookCounter5 from './components/HookCounter5';
+//import HookCounter5 from './components/HookCounter5';
+//import ClassMouse from './components/ClassMouse';
+//import HookMose from './components/HookMose';
+//import MouseContainer from './components/MouseContainer';
+import DataFetching from './components/DataFetching';
 
 function App() {
   return (
@@ -21,7 +25,11 @@ function App() {
      {/* <ClassCounter1 /> */}
      {/* <HookCounter1 /> */}
      {/* <ClassCounter2/> */}
-     <HookCounter5 />
+     {/* <HookCounter5 /> */}
+     {/* <ClassMouse /> */}
+     {/* <HookMose /> */}
+     {/* <MouseContainer /> */}
+     <DataFetching />
     </div>
   );
 }
